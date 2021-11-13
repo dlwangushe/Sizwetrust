@@ -3,18 +3,6 @@ from os import environ
 
 SESSION_CONFIGS = [
     dict(
-        name='survey',
-        display_name='survey',
-        num_demo_participants=4,
-        app_sequence=['survey'],
-    ),
-    dict(
-        name='public_goods_simple',
-        display_name='public_goods_simple',
-        num_demo_participants=9,
-        app_sequence=['public_goods_simple'],
-    ),
-    dict(
         name='trust',
         display_name='trust',
         num_demo_participants=6,
